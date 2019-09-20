@@ -2,7 +2,7 @@
 
 def valid_move?
   input=gets.chomp 
-  if input== 0-8
+  if input== 0..8
     return true 
   elsif position_taken? 
     return false 
