@@ -1,11 +1,9 @@
 # code your #valid_move? method here
 
 def valid_move?
-  input=gets.chomp 
-  if input== 0..8
-    return true 
-  elsif position_taken? 
-    return false 
+  
+  if position_taken? 
+    return false || nil 
     
 end 
 end 
