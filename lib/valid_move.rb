@@ -2,7 +2,7 @@
 
 def valid_move?
   
-  if position_taken?(board,index)
+  if position_taken?
     return false || nil 
     
 end 
